@@ -8,5 +8,7 @@ public class Node {
 	public Node(int i) {
 		value = i;
 	}
-	
+
 }
+//alt+ -> switches between recently opened java files from last to first
+//alt+ <- switched between recently opened java files from first to last
