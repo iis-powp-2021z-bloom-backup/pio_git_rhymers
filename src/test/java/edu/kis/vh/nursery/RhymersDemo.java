@@ -6,6 +6,7 @@ import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 class RhymersDemo {
+	private static final int COUNTIN_SIZE = 20;
 
 	public static void main(String[] args) {
 		Rhymersfactory factory = new DefaultRhymersFactory();
@@ -19,7 +20,7 @@ class RhymersDemo {
 		
 		java.util.Random rn = new java.util.Random();
 		for (int i = 1; i < 15; i++)
-			rhymers[3].countIn(rn.nextInt(20));
+			rhymers[3].countIn(rn.nextInt(COUNTIN_SIZE));
 		
 		for (int i = 0; i < rhymers.length; i++) {
 			while (!rhymers[i].callCheck())
