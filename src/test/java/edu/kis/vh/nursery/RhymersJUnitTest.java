@@ -4,8 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class RhymersJUnitTest {
-	private int TEST_VALUE = 4;
-	private int EMPTY_STACK_VALUE = -1;
+	private final int TEST_VALUE = 4;
+	private final int EMPTY_STACK_VALUE = -1;
 
 	@Test
 	public void testCountIn() {

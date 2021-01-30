@@ -1,9 +1,9 @@
 package edu.kis.vh.nursery;
 
 public class defaultCountingOutRhymer {
-	private int NUMBERS_ARRAY_SIZE = 12;
-	private int EMPTY_STACK_VALUE = -1;
-	private int FULL_STACK_VALUE = 11;
+	private final int NUMBERS_ARRAY_SIZE = 12;
+	private final int EMPTY_STACK_VALUE = -1;
+	private final int FULL_STACK_VALUE = 11;
 
 	private int[] NUMBERS = new int[NUMBERS_ARRAY_SIZE];
 

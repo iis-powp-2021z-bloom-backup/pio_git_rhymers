@@ -6,7 +6,7 @@ import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 class RhymersDemo {
-	private static int COUNTIN_SIZE = 20;
+	private static final int COUNTIN_SIZE = 20;
 
 	public static void main(String[] args) {
 		Rhymersfactory factory = new DefaultRhymersFactory();
